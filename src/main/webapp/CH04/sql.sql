@@ -1,0 +1,14 @@
+CREATE TABLE members(
+	id VARCHAR(10),
+	name VARCHAR(15),
+	pwd VARCHAR(20),
+	phone VARCHAR(15)
+);
+
+INSERT INTO members VALUES('SOMI','이소미','1234','010-1234-1234');
+INSERT INTO members VALUES('SANG','전상오','1234','010-5555-6666');
+INSERT INTO members VALUES('LIGHT','김빛나','1234','010-2222-3333');
+
+SELECT * FROM members;
+
+DELETE FROM members WHERE name ='';
